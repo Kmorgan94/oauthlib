@@ -1,5 +1,5 @@
 name: Production deploy
-on:
+on: Android 
   workflow_run:
     workflows: ["Python Tests"]
     types:
